@@ -1,4 +1,5 @@
-trigger ClosedDateV2 on Opportunity (before insert) 
+trigger CloseDateTrigger on Opportunity (before insert) 
+
 	{
         for(Opportunity myOppty : Trigger.new)
         {

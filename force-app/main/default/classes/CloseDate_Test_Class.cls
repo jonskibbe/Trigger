@@ -1,5 +1,5 @@
 @IsTest
-public class CloseDateTestClass 
+public class CloseDate_Test_Class 
 {
     static testmethod void insertOpportunity()
     {
